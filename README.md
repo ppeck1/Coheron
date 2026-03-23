@@ -1,4 +1,6 @@
-# Coheron
+from pathlib import Path
+
+content = """# Coheron
 
 **Coheron** is a local-first personal observability system designed to model human state as a structured, multi-domain system and visualize coherence over time.
 
@@ -16,6 +18,24 @@ Coheron approaches this differently:
 - Preserves structure through hierarchical decomposition  
 - Tracks change over time  
 - Visualizes patterns as fields, not just numbers  
+
+---
+
+## Screenshots
+
+Coheron models state as a structured system and renders it across multiple views:
+
+### Atlas — System State Overview
+![Atlas](./screenshots/atlas.png)
+
+### Input — Structured Check-In
+![Input](./screenshots/input.png)
+
+### Reading — Pattern & Delta Analysis
+![Reading](./screenshots/reading.png)
+
+### Graphs — Time-Series Behavior
+![Graphs](./screenshots/graphs.png)
 
 ---
 
@@ -64,12 +84,12 @@ Aggregation + delta + visualization pipeline
 
 ## Current State
 
-Working:
+### Working
 - Core taxonomy  
 - Partial input + visualization  
 - APK builds  
 
-Issues:
+### Known Issues
 - Input UI bugs  
 - Persistence inconsistencies  
 - Visualization overlap  
@@ -81,17 +101,3 @@ Issues:
 ```bash
 flutter pub get
 flutter run
-```
-
----
-
-## License
-
-MIT License
-
----
-
-## Author
-
-Paul Peck
-
