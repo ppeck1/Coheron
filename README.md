@@ -1,4 +1,4 @@
-# Coheron
+# Coheron - Observability tooling for human systems.
 
 **Coheron** is a local-first personal observability system designed to model human state as a structured, multi-domain system and visualize coherence over time.
 
