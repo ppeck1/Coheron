@@ -1,6 +1,4 @@
-from pathlib import Path
-
-content = """# Coheron
+# Coheron
 
 **Coheron** is a local-first personal observability system designed to model human state as a structured, multi-domain system and visualize coherence over time.
 
@@ -25,18 +23,10 @@ Coheron approaches this differently:
 
 Coheron models state as a structured system and renders it across multiple views:
 
-### Atlas — System State Overview
-![Atlas](./screenshots/atlas.png)
-
-### Input — Structured Check-In
-![Input](./screenshots/input.png)
-
-### Reading — Pattern & Delta Analysis
-![Reading](./screenshots/reading.png)
-
-### Graphs — Time-Series Behavior
-![Graphs](./screenshots/graphs.png)
-
+![Atlas](./screenshots/atlas.jpg)
+![Input](./screenshots/input.jpg)
+![Reading](./screenshots/reading.jpg)
+![Graphs](./screenshots/graph.jpg)
 ---
 
 ## Core Model
