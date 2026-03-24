@@ -1,9 +1,9 @@
 # Coheron - Observability tooling for human systems.
+Track state. Preserve structure. Visualize behavior over time.
 
-**Coheron** is a local-first personal observability system designed to model human state as a structured, multi-domain system and visualize coherence over time.
+**Coheron** is a local-first personal observability system for modeling human state as a structured, multi-domain system.
 
-It treats behavior, environment, and output not as isolated metrics—but as an interconnected system with measurable patterns, drift, and stability.
-
+It treats behavior, environment, and output not as isolated metrics, but as an interconnected system with measurable patterns, drift, and stability.
 ---
 
 ## Overview
@@ -15,7 +15,15 @@ Coheron approaches this differently:
 - Models state across three domains  
 - Preserves structure through hierarchical decomposition  
 - Tracks change over time  
-- Visualizes patterns as fields, not just numbers  
+- Visualizes patterns as fields, not just numbers
+
+---
+
+## Why This Exists
+
+Most tools track data. Coheron models systems.
+
+When multi-dimensional state is reduced to single metrics, structure is lost and signals become misleading. Coheron preserves that structure and exposes behavior as a system over time.
 
 ---
 
@@ -23,10 +31,28 @@ Coheron approaches this differently:
 
 Coheron models state as a structured system and renders it across multiple views:
 
+Atlas view: Aggregate system state across domains and planes.
+
 ![Atlas](./screenshots/atlas.jpg)
+
+---
+
+Input View: Direct manipulation of domain, plane, and indicator values.
+
 ![Input](./screenshots/input.jpg)
+
+---
+
+Readings View: Change tracking and relative movement between states.
+
 ![Reading](./screenshots/reading.jpg)
+
+---
+
+Graph View: Temporal trends across domains and signals.
+
 ![Graphs](./screenshots/graph.jpg)
+
 ---
 
 ## Core Model
@@ -66,9 +92,16 @@ Recovery / Soothing / Release
 
 ## Architecture
 
-Flutter frontend  
-Domain → Plane → Indicator model  
-Aggregation + delta + visualization pipeline  
+- Flutter frontend  
+- Structured data model: Domain → Plane → Indicator  
+- Processing pipeline: aggregation, delta computation, smoothing  
+- Visualization layer: field-based rendering (Gaussian, density, contour)
+
+---
+
+## Positioning
+
+Coheron is closer to observability tooling than traditional self-tracking.
 
 ---
 
@@ -91,3 +124,5 @@ Aggregation + delta + visualization pipeline
 ```bash
 flutter pub get
 flutter run
+
+
