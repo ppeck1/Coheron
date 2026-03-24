@@ -26,6 +26,8 @@ Most tools track data. Coheron models systems.
 When multi-dimensional state is reduced to single metrics, structure is lost and signals become misleading. Coheron preserves that structure and exposes behavior as a system over time.
 
 ---
+**Most tools track data. Coheron models systems.**
+---
 
 ## Screenshots
 
